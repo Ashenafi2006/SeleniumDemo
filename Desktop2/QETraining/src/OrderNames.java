@@ -13,7 +13,7 @@ public class OrderNames {
 		System.out.println("Enter Name of Stu:");
 		
 		for (int i = 0; i < Num; i++){
-			stu[i] = s.nextLine();
+			stu[i] = s.next();
 			
 		}
 		
@@ -37,6 +37,7 @@ System.out.println(" Ordered Names are:");
 	}
 	}
 
+// Order scores by des orders 24,25,26
 
 //String stu [] = new String [10];
 
