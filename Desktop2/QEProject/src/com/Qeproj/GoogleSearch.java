@@ -23,10 +23,10 @@ public class GoogleSearch  {
 		        driver.findElement(By.name("q")).sendKeys("Barck Obama");
 		        driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 		        //driver.findElement(By.linkText("Images")).click();
-		        driver.findElement(By.xpath("//*[@id='rso']/div[4]/div/div[1]/div/div/div[1]/a/h3")).click();
-		    
-		    //XPath: //input[contains(@id, '_name')]
+		        driver.findElement(By.xpath("//*[@id='rso']/div[4]/div/div/div/div[1]/a/h3")).click();
 		        driver.close();
+		    //XPath: //input[contains(@id, '_name')]
+		      
 		        
 	}
 		}
