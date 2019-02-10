@@ -10,7 +10,7 @@ import junit.framework.Assert;
 import org.openqa.selenium.WebElement;
 
 
-public class GoogleSearch {
+public class GoogleSearch  {
 	
 	public static void main(String [] args) {
 		/*Key is methods that chromedriver recognize, 
