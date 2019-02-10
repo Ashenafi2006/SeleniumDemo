@@ -26,6 +26,7 @@ public class GoogleSearch {
 		        driver.findElement(By.xpath("//*[@id='rso']/div[4]/div/div[1]/div/div/div[1]/a/h3")).click();
 		    
 		    //XPath: //input[contains(@id, '_name')]
-		    
+		        driver.close();
+		        
 	}
 		}
